@@ -3,6 +3,7 @@
 \usepackage{enumitem}
 \usepackage[T1]{fontenc}
 \usepackage{charter}
+\usepackage[left=0.75in,right=0.75in,top=0.3in,bottom=0.5in]{geometry}
 
 \RenewDocumentCommand\resentry{O{-10pt}mm}{
     \begin{tabular*}{0.94\textwidth}[t]{@{\hspace{#1}}p{5.25in-#1}@{\extracolsep{\fill}}p{0.75in}}
@@ -51,76 +52,90 @@
         \setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
         #1}
 }
+\RenewDocumentCommand\resbib{mm}{
+    \resentrysinglecol{\raggedright \textbf{#1} #2}
+}
 
-\setlength{\topmargin}{-0.5in}
+\renewcommand{\baselinestretch}{0.98}
+
+%\setlength{\topmargin}{-0.6in}
 %\setlength{\textwidth}{7.5in}
 %\setlength{\oddsidemargin}{-0.5in}
 %\setlength{\evensidemargin}{-0.5in}
-\setlength{\textheight}{10in}
+%\setlength{\textheight}{10in}
 
 \begin{document}
 
 \begin{center}
-	{\Huge \textbf{\textsc{Klaus Okkelberg}}} \\[3pt]
+	{\Huge \textbf{\textsc{Klaus Okkelberg}}} \\[2pt]
 % 	{\Huge \textbf{\textsc{Klaus Zhang}}} \\[3pt]
 	1041 State St NW Apt 10, Atlanta, GA 30318 $\bullet$ 484-226-8020 
 	$\bullet$ klaus.okkelberg@gmail.com \\[1pt]
 %	$\bullet$ klauszhang@outlook.com \\[1pt]
-	US Citizen \\[-6pt]
+	US Citizen \\[-7pt]
   \rule{\textwidth}{0.1pt}
 \end{center}
 
-\vspace*{-4pt}
+\vspace*{-5pt}
 \resheading{Objective}
 \begin{itemize}[itemsep=0pt]
-\item[] \resentrysinglecol{Ph.D.\ student in electrical engineering seeking an internship for summer 2015}
+\item[] \resentrysinglecol{Ph.D.\ student in electrical engineering seeking a challenging engineering internship for summer 2015 in any US location}
 \end{itemize}
+\vspace{-3pt}
 
 \resheading{Education}
 \begin{itemize}[itemsep=-3pt]
 \item[]
     \resschool{Georgia Institute of Technology}{Atlanta, GA}{2014--Present}
-    \ressubentrysinglecol{Ph.D.\ in Electrical and Computer Engineering}
-	\ressubentrysinglecol{Systems/Controls and Telecommunications}
+    \ressubentrysinglecol{Ph.D.\ in Electrical and Computer Engineering (Engineering program ranked 4th in US)}
+	\ressubentrysinglecol{Emphasis in Systems/Controls and Telecommunications}
 \item[]
     \resschool{University of New Orleans}{New Orleans, LA}{2011--2014}
         \ressubentrysinglecol{M.S.E.\ in Electrical Engineering}
 		\ressubentrysinglecol{Thesis on nonlinear filtering for battery health management}
 		\ressubentrysinglecol{GPA: 4.0/4.0}
 \item[]
-    \resschool{Pennsylvania State University}{University Park, PA}{2007--2011}
-        \ressubentrysinglecol{B.S.\ in Electrical Engineering}
-        \ressubentrysinglecol{Schreyer Honors College Scholar}
+    \resschool{The Pennsylvania State University}{University Park, PA}{2007--2011}
+        \ressubentrysinglecol{B.S.\ in Electrical Engineering (Engineering program ranked 15th in US)}
+        \ressubentrysinglecol{Schreyer Honors College Scholar (Representing the top 1\% of Penn State students)}
 		%\ressubentrysinglecol{Specialized in digital signal processing and communications}
-		\ressubentrysinglecol{Thesis on nonlinear control system for nuclear magnetic spectroscopy}
+		\ressubentrysinglecol{Honors Thesis on nonlinear control system for nuclear magnetic spectroscopy}
 		%\ressubentrysinglecol{Made laser-based clock for senior design project}
 		\ressubentrysinglecol{GPA: 3.8/4.0}
 \end{itemize}
+\vspace{-3pt}
 
 \resheading{Experience}
 \begin{itemize}[itemsep=-18pt]
 \item[]
-\resemployer[Yong Wang]{Xilinx, Inc.}{San Jose, CA}
+\resemployer{Xilinx, Inc.}{San Jose, CA (Designer of programmable logic devices)}
     \resjob[\vspace{-20pt}\begin{itemize}[itemsep=-2pt,label=\textbullet]
-		\item Improved accuracy and speed of the simulation of simultaneous switching noise in FPGAs
+    	\item Improved computer mathematical modeling of physical field-programmable gate array (FPGA) devices through Cadence modeling and Matlab/Verilog simulation
+			\vspace{-3pt}\begin{itemize}[itemsep=0pt,label=--]
+				\item Increased accuracy of model to physical result by 20\%
+				\item Improved performance by a factor of 15 in speed
+			\end{itemize}
 		\item Developed theoretical model of switching noise magnitude
+		\item Added unattended simulation functionality
+		\item Active in intern activities and participated in organic farming
 		\end{itemize}]{Intern}{June 2014}{Aug. 2014}
 \item[]
-\resemployer[Dr.\ Huimin Chen]{University of New Orleans}{New Orleans, LA}
+\resemployer{University of New Orleans}{New Orleans, LA}
     \resjob[\vspace{-20pt}\begin{itemize}[itemsep=-2pt,label=\textbullet]
 		\item Studied accuracy and speed of various nonlinear filters as related to estimating battery state of charge
 		\item Proposed adjustments to the Unscented Kalman Filter and the Cubature Kalman Filter that increase filtering stability and accuracy
-		\end{itemize}]{Research Assistant}{July 2012}{May 2014}
+		\item NASA-funded Masters through Ames Research Center Scholarship
+		\end{itemize}]{Research Assistant \textnormal{under Dr.\ Huimin Chen}}{July 2012}{May 2014}
 \item[]
-\resemployer[Dr.\ Jeffrey L.\ Schiano]{Pennsylvania State University}{University Park, PA}
+\resemployer{Pennsylvania State University}{University Park, PA}
     \resjob[\vspace{-20pt}\begin{itemize}[itemsep=-2pt,label=\textbullet]
 		\item Researched a marginal oscillator with a nonlinear feedback element for use in nuclear magnetic spectroscopy
 		\item Studied sampled-data implementation in presence of thermal noise
 		\item Derived sensitivity of a Robinson marginal oscillator
-		\item Optimized simulation model for speedup by a factor of 100
-		\end{itemize}]{Research Assistant}{March 2010}{May 2011}
+		\item Optimized performance of simulation model by a factor of 100 in speed
+		\end{itemize}]{Research Assistant \textnormal{under Dr.\ Jeffrey L.\ Schiano}}{March 2010}{May 2011}
 \end{itemize}
-\vspace{-16pt}
+\vspace{-18pt}
 
 \resheading{Projects}
 \begin{itemize}[itemsep=-3pt]
@@ -130,28 +145,34 @@
 \item Investigation of resonant tunneling through a double-barrier diode
 \item Quantum interference visibility in an oscillating macroscopic mirror
 \item High-speed adaptive decision feedback equalization for SerDes communications
-\item Digital clock with laser display system
-\item Domino tilings of rectangles with fixed width
+\item Digital clock with laser display system for Senior Design Project
+%\item Domino tilings of rectangles with fixed width
 \end{itemize}
+\vspace{-3pt}
 
 \resheading{Publications}
-\begin{itemize}[itemsep=-2pt]
+\begin{itemize}[itemsep=-3pt]
 \item[] \resbib{``Comparison of Nonlinear Filtering Methods for Battery State of Charge Estimation''}{University of New Orleans, 2014.}
 \item[] \resbib{``Conversion Gain and Sensitivity in Marginal Oscillators: Continuous and Sampled-Data Negative Resistance Converters''}{The Pennsylvania State University, 2011.}
-\item[] \resbib{``The Pulsar: A Revolution in Display Technology''}{Pennsylvania Center for the Book, the Pennsylvania State University, 2010.}
+\item[] \resbib{``The Pulsar: A Revolution in Display Technology''}{Pennsylvania Center for the Book, Penn State University, 2010.}
+%\item[] \resbib{``Dominoes or: How I Learned to Stop Worrying and Love the Tilings''}{Journal of the Pennsylvania Governor’s School for the Sciences, Volume 25, 2007.}
+\item[] \resbib{``Domino Tilings of Rectangles with Fixed Width''}{Journal of the Pennsylvania Governor's School for the Sciences, 2007.}
 \end{itemize}
+\vspace{-3pt}
 
-\resheading{Honors/Awards}
-\begin{itemize}[itemsep=-3pt]
-\item[] \resdesc{SGT/NASA Ames Research Center Scholarship}{2012--2013}
-\item[] \resdesc{Schreyer Honors College Scholarship}{2007--2011}
-\end{itemize}
+%\resheading{Honors/Awards}
+%\begin{itemize}[itemsep=-3pt]
+%\item[] \resdesc{SGT/NASA Ames Research Center Scholarship}{2012--2013}
+%\item[] \resdesc{Schreyer Honors College Scholarship}{2007--2011}
+%\end{itemize}
 
-\resheading{Skills}
+\resheading{Notes}
 \begin{itemize}[itemsep=-3pt]
-\item[] \resbib{Applications:}{Matlab/Simulink, PSPICE, Multisim, Mathematica, Maple, AutoCAD, Inventor, Solidworks, Photoshop, MS Office, Minitab}
-\item[] \resbib{Programming:}{C/C++, Java, Python, Visual Basic, Perl, Tcl/Tk, Matlab, LabView, LATEX} \vspace{1pt}
-\item[] \resbib{Miscellaneous:}{Good communication skills, strong problem solving ability, excellent at teamwork}
+\item[] \resbib{Applications:}{Matlab/Simulink, PSPICE, Multisim, Mathematica,  AutoCAD, Solidworks, Minitab, Photoshop, and MS Office}
+\item[] \resbib{Programming:}{Matlab, Fortran, C, Java, Python, Visual Basic, Perl, Tcl/Tk, LabView, and LaTeX}
+\item[] \resbib{Social Skills:}{Good communication skills, strong problem solving ability, and excellent at teamwork}
+\item[] \resbib{Volunteering:}{Shell Eco-Marathon, Shell Oil/Viva Technology competition mentor for underprivileged students in New Orleans, Bike Around the Bay, Penn State philanthropy for children with cancer, and Penn State campus beautification}
+\item[] \resbib{Interests:}{Cooking, swimming, ping pong, running, chess, and photography}
 \end{itemize}
 
 \end{document}

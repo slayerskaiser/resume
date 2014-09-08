@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.9.10)  6 SEP 2014 15:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.9.10)  7 SEP 2014 18:50
 entering extended mode
 **resume.tex
 (C:\Users\Koenig\Documents\Resume\resumes\latex_current\resume.tex
@@ -348,68 +348,101 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\charter.sty"
 Package: charter 2005/04/12 PSNFSS-v9.2a (P.Dyballa) 
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count122
+\Gm@cntv=\count123
+\c@Gm@tempcnt=\count124
+\Gm@bindingoffset=\dimen140
+\Gm@wd@mp=\dimen141
+\Gm@odd@mp=\dimen142
+\Gm@even@mp=\dimen143
+\Gm@layoutwidth=\dimen144
+\Gm@layoutheight=\dimen145
+\Gm@layouthoffset=\dimen146
+\Gm@layoutvoffset=\dimen147
+\Gm@dimlist=\toks18
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 *************************************************
 * LaTeX warning: "xparse/redefine-command"
 * 
 * Redefining document command \resentry with arg. spec. 'O{-10pt}mm' on line
-* 12.
+* 13.
 *************************************************
 *************************************************
 * LaTeX warning: "xparse/redefine-command"
 * 
 * Redefining document command \resentrysinglecol with arg. spec. 'O{-10pt}m'
-* on line 18.
+* on line 19.
 *************************************************
 *************************************************
 * LaTeX warning: "xparse/redefine-command"
 * 
-* Redefining document command \resheading with arg. spec. 'm' on line 22.
+* Redefining document command \resheading with arg. spec. 'm' on line 23.
 *************************************************
 *************************************************
 * LaTeX warning: "xparse/redefine-command"
 * 
-* Redefining document command \resschool with arg. spec. 'mmm' on line 25.
+* Redefining document command \resschool with arg. spec. 'mmm' on line 26.
 *************************************************
 *************************************************
 * LaTeX warning: "xparse/redefine-command"
 * 
-* Redefining document command \resemployer with arg. spec. 'omm' on line 32.
+* Redefining document command \resemployer with arg. spec. 'omm' on line 33.
 *************************************************
 *************************************************
 * LaTeX warning: "xparse/redefine-command"
 * 
-* Redefining document command \resdesc with arg. spec. 'mm' on line 35.
+* Redefining document command \resdesc with arg. spec. 'mm' on line 36.
 *************************************************
 *************************************************
 * LaTeX warning: "xparse/redefine-command"
 * 
-* Redefining document command \resjob with arg. spec. 'ommm' on line 43.
+* Redefining document command \resjob with arg. spec. 'ommm' on line 44.
 *************************************************
 *************************************************
 * LaTeX warning: "xparse/redefine-command"
 * 
-* Redefining document command \ressubentry with arg. spec. 'mm' on line 48.
+* Redefining document command \ressubentry with arg. spec. 'mm' on line 49.
 *************************************************
 *************************************************
 * LaTeX warning: "xparse/redefine-command"
 * 
 * Redefining document command \ressubentrysinglecol with arg. spec. 'm' on
-* line 53.
+* line 54.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \resbib with arg. spec. 'mm' on line 57.
 *************************************************
 (C:\Users\Koenig\Documents\Resume\resumes\latex_current\resume.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Try loading font information for T1+bch on input line 61.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Try loading font information for T1+bch on input line 67.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1bch.fd"
 File: t1bch.fd 2004/10/18 font definitions for T1/bch.
@@ -427,47 +460,81 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count122
-\scratchdimen=\dimen140
+\scratchcounter=\count125
+\scratchdimen=\dimen148
 \scratchbox=\box42
-\nofMPsegments=\count123
-\nofMParguments=\count124
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count125
-\MPscratchDim=\dimen141
-\MPnumerator=\count126
-\makeMPintoPDFobject=\count127
-\everyMPtoPDFconversion=\toks18
+\nofMPsegments=\count126
+\nofMParguments=\count127
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count128
+\MPscratchDim=\dimen149
+\MPnumerator=\count129
+\makeMPintoPDFobject=\count130
+\everyMPtoPDFconversion=\toks20
 )
-LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 66.
-LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 66.
-LaTeX Font Info:    Try loading font information for OMS+bch on input line 107.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(54.2025pt, 505.89pt, 54.2025pt)
+* v-part:(T,H,B)=(21.68121pt, 737.15378pt, 36.135pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=505.89pt
+* \textheight=737.15378pt
+* \oddsidemargin=-18.06749pt
+* \evensidemargin=-18.06749pt
+* \topmargin=-50.58878pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=9.0pt
+* \footskip=30.0pt
+* \marginparwidth=74.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=8.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=7.22743pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsbch.fd"
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <6> on input line 72.
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <5> on input line 72.
+LaTeX Font Info:    Try loading font information for OMS+bch on input line 121.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsbch.fd"
 File: omsbch.fd 
 )
 LaTeX Font Info:    Font shape `OMS/bch/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 107.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 121.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (C:\Users\Koenig\Documents\Resume\resumes\latex_current\resume.aux) ) 
 Here is how much of TeX's memory you used:
- 7358 strings out of 493921
- 140875 string characters out of 3147279
- 178486 words of memory out of 3000000
- 10570 multiletter control sequences out of 15000+200000
+ 7885 strings out of 493921
+ 148694 string characters out of 3147279
+ 196597 words of memory out of 3000000
+ 11081 multiletter control sequences out of 15000+200000
  32479 words of font info for 37 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 45i,11n,48p,10430b,444s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,11n,48p,10430b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Progra
 m Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9
 /fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/bitstrea/charter/bchr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmsy9.pfb>
-Output written on resume.pdf (1 page, 45428 bytes).
+Output written on resume.pdf (1 page, 46212 bytes).
 PDF statistics:
  19 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
