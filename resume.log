@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.9.10)  7 SEP 2014 18:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.9.10)  7 SEP 2014 19:11
 entering extended mode
 **resume.tex
 (C:\Users\Koenig\Documents\Resume\resumes\latex_current\resume.tex
@@ -481,14 +481,14 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(54.2025pt, 505.89pt, 54.2025pt)
-* v-part:(T,H,B)=(21.68121pt, 737.15378pt, 36.135pt)
+* v-part:(T,H,B)=(28.90755pt, 729.92744pt, 36.135pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=505.89pt
-* \textheight=737.15378pt
+* \textheight=729.92744pt
 * \oddsidemargin=-18.06749pt
 * \evensidemargin=-18.06749pt
-* \topmargin=-50.58878pt
+* \topmargin=-43.36244pt
 * \headheight=0.0pt
 * \headsep=0.0pt
 * \topskip=9.0pt
@@ -507,23 +507,23 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 72.
+(Font)              <6> on input line 73.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 72.
-LaTeX Font Info:    Try loading font information for OMS+bch on input line 121.
+(Font)              <5> on input line 73.
+LaTeX Font Info:    Try loading font information for OMS+bch on input line 122.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsbch.fd"
 File: omsbch.fd 
 )
 LaTeX Font Info:    Font shape `OMS/bch/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 121.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 122.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (C:\Users\Koenig\Documents\Resume\resumes\latex_current\resume.aux) ) 
 Here is how much of TeX's memory you used:
  7885 strings out of 493921
- 148694 string characters out of 3147279
+ 148685 string characters out of 3147279
  196597 words of memory out of 3000000
  11081 multiletter control sequences out of 15000+200000
  32479 words of font info for 37 fonts, out of 3000000 for 9000
@@ -534,7 +534,7 @@ m Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9
 /fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/bitstrea/charter/bchr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmsy9.pfb>
-Output written on resume.pdf (1 page, 46212 bytes).
+Output written on resume.pdf (1 page, 46213 bytes).
 PDF statistics:
  19 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
