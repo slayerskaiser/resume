@@ -53,10 +53,15 @@
         #1}
 }
 \RenewDocumentCommand\resbib{mm}{
-    \resentrysinglecol{\raggedright \textbf{#1} #2}
+    %\resentrysinglecol{\raggedright \textbf{#1} #2}
+    \resentrysinglecol{\begin{itemize}[]
+            \item[] \textbf{#1} #2
+    \end{itemize}}
 }
 
 \renewcommand{\baselinestretch}{0.98}
+
+\newcommand{\negphantom}[1]{\settowidth{\dimen0}{#1}\hspace*{-\dimen0}}
 
 %\setlength{\topmargin}{-0.6in}
 %\setlength{\textwidth}{7.5in}
@@ -69,9 +74,8 @@
 \begin{center}
 	{\fontsize{28}{33}\selectfont \textbf{\textsc{Klaus Okkelberg}}} \\[2pt]
 %	{\Huge \textbf{\textsc{Klaus Okkelberg}}} \\[2pt]
-% 	{\Huge \textbf{\textsc{Klaus Zhang}}} \\[3pt]
-	1041 State St NW Apt 10, Atlanta, GA 30318 $\bullet$ 484-226-8020 
-	$\bullet$ klaus.okkelberg@gmail.com \\[1pt]
+%	1041 State St NW Apt 10, Atlanta, GA 30318
+	Atlanta, GA 30318 $\bullet$ 484-226-8020 $\bullet$ klaus.okkelberg@gmail.com \\[1pt]
 %	$\bullet$ klauszhang@outlook.com \\[1pt]
 	US Citizen \\[-7pt]
   \rule{\textwidth}{0.1pt}
@@ -80,30 +84,30 @@
 \vspace*{-5pt}
 \resheading{Objective}
 \begin{itemize}[itemsep=0pt]
-\item[] \resentrysinglecol{Ph.D.\ student in electrical engineering seeking an internship for summer 2015 in any US location}
+%\item[] \resentrysinglecol{Ph.D.\ student in electrical engineering seeking an internship for summer 2015 in any US location}
+\item[] \resentrysinglecol{Focused, enthusiastic Ph.D.\ candidate seeking an internship for summer 2015 in the field of electrical engineering}
 \end{itemize}
 \vspace{-3pt}
 
 \resheading{Education}
 \begin{itemize}[itemsep=-3pt]
 \item[]
-    \resschool{Georgia Institute of Technology}{Atlanta, GA}{2014--Present}
-    %\ressubentrysinglecol{Ph.D.\ in Electrical and Computer Engineering (Engineering program ranked 4th in US)}
+    \resschool{Georgia Institute of Technology}{Atlanta, GA}{\negphantom{\emph{expected} }\hspace{2em} \emph{expected} 2017}
     \ressubentrysinglecol{Ph.D.\ in Electrical and Computer Engineering}
-	\ressubentrysinglecol{Emphasis in Systems/Controls and Telecommunications}
-    \ressubentrysinglecol{GPA: 3.3/4.0 (anticipated)}
+    \ressubentrysinglecol{\emph{Emphasis:} Systems/Controls and Telecommunications}
+    \ressubentrysinglecol{GPA: 3.3/4.0}
 \item[]
-    \resschool{University of New Orleans}{New Orleans, LA}{2011--2014}
+    \resschool{University of New Orleans}{New Orleans, LA}{\hspace{2em} 2014}
         \ressubentrysinglecol{M.S.E.\ in Electrical Engineering}
-		\ressubentrysinglecol{Thesis topic: Nonlinear filtering for battery health management}
+        \ressubentrysinglecol{\emph{Thesis topic:} Nonlinear filtering for battery health management}
 		\ressubentrysinglecol{GPA: 4.0/4.0}
 \item[]
-    \resschool{The Pennsylvania State University}{University Park, PA}{2007--2011}
+    \resschool{The Pennsylvania State University}{University Park, PA}{\hspace{2em} 2011}
         %\ressubentrysinglecol{B.S.\ in Electrical Engineering (Engineering program ranked 15th in US)}
         \ressubentrysinglecol{B.S.\ in Electrical Engineering}
         \ressubentrysinglecol{Schreyer Honors College Scholar (Representing the top 1\% of Penn State students)}
 		%\ressubentrysinglecol{Specialized in digital signal processing and communications}
-		\ressubentrysinglecol{Honors Thesis topic: Nonlinear control system for nuclear magnetic spectroscopy}
+            \ressubentrysinglecol{\emph{Honors Thesis topic:} Nonlinear control system for nuclear magnetic spectroscopy}
 		%\ressubentrysinglecol{Made laser-based clock for senior design project}
 		\ressubentrysinglecol{GPA: 3.8/4.0}
 \end{itemize}
@@ -155,13 +159,13 @@
 \vspace{-3pt}
 
 \resheading{Publications}
-\begin{itemize}[itemsep=-3pt]
-\item[] \resbib{``Comparison of Nonlinear Filtering Methods for Battery State of Charge Estimation''}{University of New Orleans, 2014.}
-\item[] \resbib{``Conversion Gain and Sensitivity in Marginal Oscillators: Continuous and Sampled-Data Negative Resistance Converters''}{The Pennsylvania State University, 2011.}
-\item[] \resbib{``The Pulsar: A Revolution in Display Technology''}{Pennsylvania Center for the Book, Penn State University, 2010.}
+\begin{description}[itemsep=-3pt,leftmargin=30.5pt,itemindent=-2em]
+\item[] \textbf{``Comparison of Nonlinear Filtering Methods for Battery State of Charge Estimation''} University of New Orleans, 2014.
+\item[] \textbf{``Conversion Gain and Sensitivity in Marginal Oscillators: Continuous and Sampled-Data Negative Resistance Converters''} The Pennsylvania State University, 2011.
+\item[] \textbf{``The Pulsar: A Revolution in Display Technology''} Pennsylvania Center for the Book, Penn State University, 2010.
+\item[] \textbf{``Domino Tilings of Rectangles with Fixed Width''} Journal of the Pennsylvania Governor's School for the Sciences, 2007.
 %\item[] \resbib{``Dominoes or: How I Learned to Stop Worrying and Love the Tilings''}{Journal of the Pennsylvania Governor’s School for the Sciences, Volume 25, 2007.}
-\item[] \resbib{``Domino Tilings of Rectangles with Fixed Width''}{Journal of the Pennsylvania Governor's School for the Sciences, 2007.}
-\end{itemize}
+\end{description}
 \vspace{-3pt}
 
 %\resheading{Honors/Awards}
@@ -171,14 +175,13 @@
 %\end{itemize}
 
 \resheading{Notes}
-\begin{itemize}[itemsep=-3pt]
-\item[] \resbib{Software:}{Matlab, Simulink, PSPICE, Multisim, Mathematica,  AutoCAD, Solidworks, Minitab, Photoshop, and MS Office}
-\item[] \resbib{Programming:}{Matlab, Fortran, C, Java, Python, Visual Basic, Perl, Tcl/Tk, LabView, and LaTeX}
-\item[] \resbib{Web Development:}{Javascript, AJAX, PHP, Python, CSS3, HTML, Apache, MySQL}
-\item[] \resbib{Social Skills:}{Good communication skills, strong problem solving ability, and excellent at teamwork}
-\item[] \resbib{Volunteering:}{Shell Eco-Marathon, Shell Oil/Viva Technology competition mentor for underprivileged students in New Orleans, Bike Around the Bay, Penn State philanthropy for children with cancer, and Penn State campus beautification}
-%\item[] \resbib{Interests:}{Cooking, swimming, ping pong, running, chess, and photography}
-\item[] \resbib{Interests:}{Cooking, running, swimming, ping pong, chess, and photography}
-\end{itemize}
+\begin{description}[itemsep=-3pt,leftmargin=30.5pt,itemindent=-2em]
+\item[] \textbf{Software:} Matlab, Simulink, PSPICE, Multisim, Mathematica,  AutoCAD, Solidworks, Minitab, Photoshop, MS Office
+\item[] \textbf{Programming:} Matlab, Fortran, C, Java, Python, Visual Basic, Perl, Tcl/Tk, LabView, LaTeX
+\item[] \textbf{Web Development:} Javascript, AJAX, PHP, Python, CSS3, HTML, Apache, MySQL
+\item[] \textbf{Social Skills:} Good communication skills, strong problem solving ability, excellent at teamwork
+\item[] \textbf{Volunteering:} Shell Eco-Marathon, Shell Oil/Viva Technology competition mentor for underprivileged students in New Orleans, Bike Around the Bay, Penn State philanthropy for children with cancer, Penn State campus beautification
+%\item[] \resbib{Interests:}{Cooking, swimming, ping pong, running, chess, photography}
+\end{description}
 
 \end{document}

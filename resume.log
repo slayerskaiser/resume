@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2015.4.8)  21 APR 2015 13:09
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2015.4.8)  13 MAY 2015 14:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -422,24 +422,24 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 *************************************************
 * LaTeX warning: "xparse/redefine-command"
 * 
-* Redefining document command \resbib with arg. spec. 'mm' on line 57.
+* Redefining document command \resbib with arg. spec. 'mm' on line 60.
 *************************************************
 (./resume.aux)
 \openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Try loading font information for T1+bch on input line 67.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Try loading font information for T1+bch on input line 72.
  (/usr/share/texmf-dist/tex/latex/psnfss/t1bch.fd
 File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 )
@@ -547,35 +547,36 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 73.
+(Font)              <6> on input line 78.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 73.
-LaTeX Font Info:    Try loading font information for OMS+bch on input line 125.
+(Font)              <5> on input line 78.
+LaTeX Font Info:    Try loading font information for OMS+bch on input line 129.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/omsbch.fd
 File: omsbch.fd 
 )
 LaTeX Font Info:    Font shape `OMS/bch/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 125.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 129.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./resume.aux) ) 
 Here is how much of TeX's memory you used:
- 8138 strings out of 495063
- 141669 string characters out of 3182674
- 200063 words of memory out of 3000000
- 11198 multiletter control sequences out of 15000+200000
- 32479 words of font info for 37 fonts, out of 3000000 for 9000
+ 8149 strings out of 495063
+ 141900 string characters out of 3182674
+ 198108 words of memory out of 3000000
+ 11207 multiletter control sequences out of 15000+200000
+ 35526 words of font info for 39 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 44i,11n,48p,300b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,11n,48p,283b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/shar
 e/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/type1/bit
 strea/charter/bchb8a.pfb></usr/share/texmf-dist/fonts/type1/bitstrea/charter/bc
-hr8a.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on resume.pdf (1 page, 44470 bytes).
+hr8a.pfb></usr/share/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on resume.pdf (1 page, 54861 bytes).
 PDF statistics:
- 21 PDF objects out of 1000 (max. 8388607)
- 14 compressed objects within 1 object stream
+ 25 PDF objects out of 1000 (max. 8388607)
+ 17 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
