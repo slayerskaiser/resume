@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2016.1.27)  11 JUL 2016 13:51
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2016.1.27)  10 SEP 2016 12:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -561,14 +561,14 @@ e
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(54.2025pt, 505.89pt, 54.2025pt)
-* v-part:(T,H,B)=(21.68121pt, 737.15378pt, 36.135pt)
+* v-part:(T,H,B)=(14.45377pt, 744.38123pt, 36.135pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=505.89pt
-* \textheight=737.15378pt
+* \textheight=744.38123pt
 * \oddsidemargin=-18.06749pt
 * \evensidemargin=-18.06749pt
-* \topmargin=-50.58878pt
+* \topmargin=-57.81622pt
 * \headheight=0.0pt
 * \headsep=0.0pt
 * \topskip=9.0pt
@@ -587,37 +587,38 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 78.
+(Font)              <6> on input line 79.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 78.
-LaTeX Font Info:    Try loading font information for OMS+bch on input line 127.
+(Font)              <5> on input line 79.
+LaTeX Font Info:    Try loading font information for OMS+bch on input line 130.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsbch.fd
 File: omsbch.fd 
 )
 LaTeX Font Info:    Font shape `OMS/bch/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 127.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 130.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./resume.aux) ) 
 Here is how much of TeX's memory you used:
  7622 strings out of 493493
  128694 string characters out of 3143797
- 187933 words of memory out of 3000000
+ 189933 words of memory out of 3000000
  10807 multiletter control sequences out of 15000+200000
  35526 words of font info for 39 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,11n,48p,283b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,11n,48p,304b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/shar
 e/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist
 /fonts/type1/bitstrea/charter/bchb8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/bitstrea/charter/bchr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bit
 strea/charter/bchri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy9.pfb>
-Output written on resume.pdf (1 page, 52116 bytes).
+fonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy9.pfb>
+Output written on resume.pdf (1 page, 60652 bytes).
 PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
- 17 compressed objects within 1 object stream
+ 29 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

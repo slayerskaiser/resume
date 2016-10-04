@@ -3,7 +3,7 @@
 \usepackage{enumitem}
 \usepackage[T1]{fontenc}
 \usepackage{charter}
-\usepackage[left=0.75in,right=0.75in,top=0.3in,bottom=0.5in]{geometry}
+\usepackage[left=0.75in,right=0.75in,top=0.2in,bottom=0.5in]{geometry}
 
 \RenewDocumentCommand\resentry{O{-10pt}mm}{
     \begin{tabular*}{0.94\textwidth}[t]{@{\hspace{#1}}p{5.25in-#1}@{\extracolsep{\fill}}p{0.75in}}
@@ -59,7 +59,7 @@
     \end{itemize}}
 }
 
-\renewcommand{\baselinestretch}{0.98}
+\renewcommand{\baselinestretch}{0.95}
 
 \newcommand{\negphantom}[1]{\settowidth{\dimen0}{#1}\hspace*{-\dimen0}}
 
@@ -72,32 +72,37 @@
 \begin{document}
 
 \begin{center}
-	{\fontsize{28}{33}\selectfont \textbf{\textsc{Klaus Okkelberg}}} \\[2pt]
-%	{\Huge \textbf{\textsc{Klaus Okkelberg}}} \\[2pt]
-	%Mobile, AL $\bullet$ 484-226-8020 $\bullet$ klaus.okkelberg@gmail.com \\[1pt]
-	Atlanta, GA $\bullet$ 484-226-8020 $\bullet$ kokkelberg@gatech.edu \\[1pt]
-	%Atlanta, GA $\bullet$ 484-226-8020 $\bullet$ klaus.okkelberg@gmail.com \\[1pt]
-%	$\bullet$ klauszhang@outlook.com \\[1pt]
-	US Citizen \\[-7pt]
-  \rule{\textwidth}{0.1pt}
-\end{center}
+    % {\fontsize{28}{33}\selectfont \textbf{\textsc{Klaus Okkelberg}}} \\[2pt]
+    {\fontsize{24}{30}\selectfont \textbf{\textsc{Klaus Okkelberg}}} \\[2pt]
+    %	{\Huge \textbf{\textsc{Klaus Okkelberg}}} \\[2pt]
+    % Mobile, AL $\bullet$ 484-226-8020 $\bullet$ klaus.okkelberg@gmail.com \\[1pt]
+    484-226-8020 $\bullet$ kokkelberg@gatech.edu $\bullet$ US Citizen \\[-2pt]
+    % Atlanta, GA $\bullet$ 484-226-8020 $\bullet$ klaus.okkelberg@gmail.com \\[1pt]
+    %	$\bullet$ klauszhang@outlook.com \\[1pt]
+    % US Citizen \\[-7pt]
+    \vspace*{-4pt}
+    \rule{\textwidth}{0.1pt}
+  \end{center}
 
-%\vspace*{-5pt}
-%\resheading{Objective}
-%\begin{itemize}[itemsep=0pt]
-%%\item[] \resentrysinglecol{Ph.D.\ student in electrical engineering seeking an internship for summer 2015 in any US location}
-%\item[] \resentrysinglecol{Electrical engineering Ph.D.\ candidate seeking an internship for summer $2016$ in the areas of control systems, digital signal processing, or communications}
-%\end{itemize}
-%\vspace{-3pt}
+\vspace*{-5pt}
+\resheading{Objective}
+\begin{itemize}[itemsep=0pt]
+%\item[] \resentrysinglecol{Ph.D.\ student in electrical engineering seeking an internship for summer 2015 in any US location}
+\item[] \resentrysinglecol{Electrical engineering Ph.D.\ candidate seeking an internship for summer $2017$ in any geographical location}
+%\item[] \resentrysinglecol{Electrical engineering Ph.D.\ candidate seeking an internship for summer $2017$ in the areas of control systems, digital signal processing, or communications}
+%\item[] \resentrysinglecol{Electrical engineer seeking a job in the areas of control systems, digital signal processing, or communications}
+\end{itemize}
+\vspace{-3pt}
 
 \resheading{Education}
 \begin{itemize}[itemsep=-3pt]
 \item[]
     %\resschool{Georgia Institute of Technology}{Atlanta, GA}{\negphantom{\emph{expected} }\hspace{2em} \emph{expected} 2017}
     \resschool{Georgia Institute of Technology}{Atlanta, GA}{\hspace{-1em}2014--present}
-    \ressubentrysinglecol{Ph.D.\ in Electrical and Computer Engineering}
+    \ressubentrysinglecol{Ph.D.\ candidate in Electrical and Computer Engineering}
     %\ressubentrysinglecol{\emph{Emphasis:} Systems/Controls and Telecommunications}
-    \ressubentrysinglecol{GPA: 3.77/4.00}
+    \ressubentrysinglecol{\emph{Research:} Developing DSP algorithms of a mobile speech capture system for help with speech disorders and accent \mbox{reduction}. Uses machine learning and information fusion to provide audio/visual performance feedback}
+    \ressubentrysinglecol{GPA: 3.8/4.0}
 \item[]
     \resschool{University of New Orleans}{New Orleans, LA}{\hspace{2em} 2014}
         \ressubentrysinglecol{M.S.E.\ in Electrical Engineering}
@@ -120,8 +125,15 @@
 \item[]
 \resemployer{Georgia Tech}{Atlanta, GA}
     \resjob[\vspace{-20pt}\begin{itemize}[itemsep=-2pt,label=\textbullet]
-        \item Graduate TA for GaTech ECE 2031, Digital Design Lab, part of the school's Undergraduate Professional Communication Program
-        \item Managed two lab sections each semester with 70 students total % 33 students
+        \item Graduate TA for GaTech ECE 3030, Physical Foundations of Computer Engineering, with 71 students
+        \item Responsible for grading all assignments as well as answering questions in and out of class
+		\end{itemize}]{Teaching Assistant}{Aug. 2016}{Dec. 2016}\vspace{-15pt}
+    \resjob[\vspace{-20pt}\begin{itemize}[itemsep=-2pt,label=\textbullet]
+        \item Grader for GaTech Math 4221, Stochastic Processes, with 37 students
+		\end{itemize}]{Grader}{Aug. 2016}{Dec. 2016}\vspace{-15pt}
+    \resjob[\vspace{-20pt}\begin{itemize}[itemsep=-2pt,label=\textbullet]
+        \item Graduate TA for GaTech ECE 2031, Digital Design Lab, part of the school's Undergraduate Professional Communication Program, with 70 students over 2 semesters
+        %\item Managed two lab sections each semester with 70 students total
         \item Taught good writing style through 1-on-1 consultations for three technical reports
         \item Responsible for giving and grading weekly quizzes and lab reports
 		\end{itemize}]{Teaching Assistant}{Aug. 2015}{May 2016}
@@ -159,7 +171,7 @@
 \resheading{Projects}
 \begin{itemize}[itemsep=-3pt]
 \item Determined performance of MIMO configurations for LTE-Advanced
-\item Go-Pro-based underwater fish recognition and tracking using FAST SURF feature matching and dark channel prior transmission map estimation
+\item GoPro-based underwater fish recognition and tracking using FAST SURF feature matching and dark channel prior transmission map estimation
 \item Detection of battery short circuit using high-gain adaptive observer
 \item Video jitter removal and stabilization using point feature matching and phase correlation
 \item Image reconstruction from incomplete, quantized measurements using discretized solution of Euler-Lagrange equation
@@ -167,7 +179,7 @@
 \item Investigation of resonant tunneling through a double-barrier diode
 \item Quantum interference visibility in an oscillating macroscopic mirror
 \item High-speed adaptive decision feedback equalization for SerDes communications
-\item Digital clock with laser display system for Senior Design Project
+%\item Digital clock with laser display system for Senior Design Project
 \end{itemize}
 \vspace{-3pt}
 
