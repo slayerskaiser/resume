@@ -1,12 +1,12 @@
-\documentclass[9pt]{extarticle}
+\documentclass[11pt]{extarticle}
 \usepackage[pagesetup]{tucv}
 \usepackage{enumitem}
 \usepackage[T1]{fontenc}
 \usepackage{charter}
-\usepackage[left=0.75in,right=0.75in,top=0.2in,bottom=0.5in]{geometry}
+\usepackage[left=0.75in,right=0.75in,top=0.3in,bottom=0.3in]{geometry}
 
 \RenewDocumentCommand\resentry{O{-10pt}mm}{
-    \begin{tabular*}{0.94\textwidth}[t]{@{\hspace{#1}}p{5.25in-#1}@{\extracolsep{\fill}}p{0.75in}}
+    \begin{tabular*}{0.94\textwidth}[t]{@{\hspace{#1}} p{5.4in-#1} @{\extracolsep{\fill}} p{0.82in}}
     \raggedright #2 & #3
     \tabularnewline
 \end{tabular*}
@@ -19,7 +19,7 @@
 }
 \RenewDocumentCommand\resheading{m}{
 	{\large \textbf{\textsc{#1}}}
-	\vspace{-5pt}
+	\vspace{-8pt}
 }
 \RenewDocumentCommand\resschool{mmm}{
     \resentry{\textbf{#1}, #2}{#3}
@@ -40,7 +40,8 @@
     \IfNoValueTF{#1}
     {}
     {\newline #1}
-    }{#3 -- \newline #4}
+    }{#3 -- #4}
+    %}{#3 -- \newline #4}
 }
 \RenewDocumentCommand\ressubentry{mm}{
     \resentry[0pt]{
@@ -59,7 +60,7 @@
     \end{itemize}}
 }
 
-\renewcommand{\baselinestretch}{0.95}
+%\renewcommand{\baselinestretch}{0.95}
 
 \newcommand{\negphantom}[1]{\settowidth{\dimen0}{#1}\hspace*{-\dimen0}}
 
@@ -72,49 +73,48 @@
 \begin{document}
 
 \begin{center}
-    % {\fontsize{28}{33}\selectfont \textbf{\textsc{Klaus Okkelberg}}} \\[2pt]
-    {\fontsize{24}{30}\selectfont \textbf{\textsc{Klaus Okkelberg}}} \\[2pt]
+    {\fontsize{28}{33}\selectfont \textbf{\textsc{Klaus Okkelberg}}} \\[2pt]
+    % {\fontsize{24}{30}\selectfont \textbf{\textsc{Klaus Okkelberg}}} \\[2pt]
     %	{\Huge \textbf{\textsc{Klaus Okkelberg}}} \\[2pt]
-    % Mobile, AL $\bullet$ 484-226-8020 $\bullet$ klaus.okkelberg@gmail.com \\[1pt]
-    484-226-8020 $\bullet$ kokkelberg@gatech.edu $\bullet$ US Citizen \\[-2pt]
-    % Atlanta, GA $\bullet$ 484-226-8020 $\bullet$ klaus.okkelberg@gmail.com \\[1pt]
-    %	$\bullet$ klauszhang@outlook.com \\[1pt]
-    % US Citizen \\[-7pt]
-    \vspace*{-4pt}
-    \rule{\textwidth}{0.1pt}
-  \end{center}
+    8488 Cherry Oak Ct, Mobile AL 36695 $\bullet$ 484-226-8020 $\bullet$ klaus.okkelberg@gmail.com
+    % 484-226-8020 $\bullet$ kokkelberg@gatech.edu $\bullet$ US Citizen \\[-2pt]
+    $\bullet$ US Citizen \\[0pt]
+    \vspace*{-5pt}
+    \rule{\textwidth}{0.2pt}
+\end{center}
 
 \vspace*{-5pt}
 \resheading{Objective}
 \begin{itemize}[itemsep=0pt]
 %\item[] \resentrysinglecol{Ph.D.\ student in electrical engineering seeking an internship for summer 2015 in any US location}
-\item[] \resentrysinglecol{Electrical engineering Ph.D.\ candidate seeking an internship for summer $2017$ in any geographical location}
+%\item[] \resentrysinglecol{Electrical engineering Ph.D.\ candidate seeking an internship for summer $2017$ in any geographical location}
 %\item[] \resentrysinglecol{Electrical engineering Ph.D.\ candidate seeking an internship for summer $2017$ in the areas of control systems, digital signal processing, or communications}
 %\item[] \resentrysinglecol{Electrical engineer seeking a job in the areas of control systems, digital signal processing, or communications}
+\item[] \resentrysinglecol{Electrical engineer seeking challenging employment opportunities in the Mobile, AL area}
 \end{itemize}
 \vspace{-3pt}
 
 \resheading{Education}
 \begin{itemize}[itemsep=-3pt]
+%\item[]
+%    %\resschool{Georgia Institute of Technology}{Atlanta, GA}{\negphantom{\emph{expected} }\hspace{2em} \emph{expected} 2017}
+%    \resschool{Georgia Institute of Technology}{Atlanta, GA}{2014 -- 2017}
+%    \ressubentrysinglecol{Electrical and Computer Engineering, 85 graduate credits}
+%    %\ressubentrysinglecol{\emph{Emphasis:} Systems/Controls and Telecommunications}
+%    %\ressubentrysinglecol{\emph{Research:} Developing DSP algorithms of a mobile speech capture system for help with speech disorders and accent \mbox{reduction}. Uses machine learning and information fusion to provide audio/visual performance feedback}
+%    \ressubentrysinglecol{GPA: 3.8/4.0}
 \item[]
-    %\resschool{Georgia Institute of Technology}{Atlanta, GA}{\negphantom{\emph{expected} }\hspace{2em} \emph{expected} 2017}
-    \resschool{Georgia Institute of Technology}{Atlanta, GA}{\hspace{-1em}2014--present}
-    \ressubentrysinglecol{Ph.D.\ candidate in Electrical and Computer Engineering}
-    %\ressubentrysinglecol{\emph{Emphasis:} Systems/Controls and Telecommunications}
-    \ressubentrysinglecol{\emph{Research:} Developing DSP algorithms of a mobile speech capture system for help with speech disorders and accent \mbox{reduction}. Uses machine learning and information fusion to provide audio/visual performance feedback}
-    \ressubentrysinglecol{GPA: 3.8/4.0}
-\item[]
-    \resschool{University of New Orleans}{New Orleans, LA}{\hspace{2em} 2014}
+    \resschool{University of New Orleans}{New Orleans, LA}{\hfill 2014}
         \ressubentrysinglecol{M.S.E.\ in Electrical Engineering}
-        \ressubentrysinglecol{\emph{Thesis topic:} Nonlinear filtering for battery health management}
+        \ressubentrysinglecol{\emph{Thesis topic:} Nonlinear filtering for battery state estimation and health management}
 		\ressubentrysinglecol{GPA: 4.0/4.0}
 \item[]
-    \resschool{The Pennsylvania State University}{University Park, PA}{\hspace{2em} 2011}
+    \resschool{The Pennsylvania State University}{University Park, PA}{\hfill 2011}
         %\ressubentrysinglecol{B.S.\ in Electrical Engineering (Engineering program ranked 15th in US)}
         \ressubentrysinglecol{B.S.\ in Electrical Engineering}
         \ressubentrysinglecol{Schreyer Honors College Scholar (Representing the top 1\% of Penn State students)}
 		%\ressubentrysinglecol{Specialized in digital signal processing and communications}
-            \ressubentrysinglecol{\emph{Honors Thesis topic:} Nonlinear control system for nuclear magnetic spectroscopy}
+            \ressubentrysinglecol{\emph{Honors thesis topic:} Nonlinear control system for nuclear magnetic spectroscopy}
 		%\ressubentrysinglecol{Made laser-based clock for senior design project}
 		\ressubentrysinglecol{GPA: 3.8/4.0}
 \end{itemize}
@@ -125,38 +125,50 @@
 \item[]
 \resemployer{Georgia Tech}{Atlanta, GA}
     \resjob[\vspace{-20pt}\begin{itemize}[itemsep=-2pt,label=\textbullet]
-        \item Graduate TA for GaTech ECE 3030, Physical Foundations of Computer Engineering, with 71 students
-        \item Responsible for grading all assignments as well as answering questions in and out of class
-		\end{itemize}]{Teaching Assistant}{Aug. 2016}{Dec. 2016}\vspace{-15pt}
+        \item Studied high-gain adaptive observer for monitoring of battery state of charge and detection of short circuits
+        \item Compared signal and channel estimation methods for CP-OFDM communications
+        \item Analyzed performance of MIMO configurations for LTE-Advanced
+        \item Researched a Multimodal Speech Capture System (MSCS) for speech therapy and accent reduction, consisting of microphones, camera and magnetic sensors for tongue tracking
+            \vspace{-3pt}\begin{itemize}[itemsep=0pt,label=--]
+                \item Designed and 3D-printed prototype systems using Solidworks
+                \item Optimized sensor calibration and magnet localization algorithms (reduced error from >10~mm to 1.8~mm)
+                \item Extended IPA vowel chart for consonant phoneme analysis
+                \item Trained deep neural network (DNN) and support vector machines (SVM) for silent speech recognition
+            \end{itemize}
+		\end{itemize}]{Graduate Researcher \textnormal{with Dr.\ Maysam Ghovanloo}}{Aug. 2014}{Present}
+\item[]
     \resjob[\vspace{-20pt}\begin{itemize}[itemsep=-2pt,label=\textbullet]
-        \item Grader for GaTech Math 4221, Stochastic Processes, with 37 students
-		\end{itemize}]{Grader}{Aug. 2016}{Dec. 2016}\vspace{-15pt}
-    \resjob[\vspace{-20pt}\begin{itemize}[itemsep=-2pt,label=\textbullet]
-        \item Graduate TA for GaTech ECE 2031, Digital Design Lab, part of the school's Undergraduate Professional Communication Program, with 70 students over 2 semesters
-        %\item Managed two lab sections each semester with 70 students total
-        \item Taught good writing style through 1-on-1 consultations for three technical reports
-        \item Responsible for giving and grading weekly quizzes and lab reports
-		\end{itemize}]{Teaching Assistant}{Aug. 2015}{May 2016}
+            \item Graduate TA for GaTech ECE 3030, Physical Foundations of Computer Engineering (physics of MOSFET operation)
+        \item Graduate TA for GaTech ECE 2031, Digital Design Lab, part of the school's Undergraduate Professional Communication Program (UPCP)
+			\vspace{-3pt}\begin{itemize}[itemsep=0pt,label=--]
+                \item Course on programming FPGAs for control of three-wheeled robots
+                \item Provided writing assistance to all undergraduate students in the Electrical and Computer Engineering department as part of UPCP
+			\end{itemize}
+        \item Graduate TA for GaTech Math 4221, Stochastic Processes
+		\end{itemize}]{Teaching Assistant}{Aug. 2015}{Dec. 2016}
 \item[]
 \resemployer{Xilinx, Inc.}{San Jose, CA}
     \resjob[\vspace{-20pt}\begin{itemize}[itemsep=-2pt,label=\textbullet]
     	\item Improved computer mathematical modeling of physical, 16~nm field-programmable gate array (FPGA) devices through Cadence modeling and Matlab/Verilog simulation
 			\vspace{-3pt}\begin{itemize}[itemsep=0pt,label=--]
-				\item Increased accuracy of model to physical result by 20\%
-				\item Improved speed by a factor of 15
+				\item Increased accuracy of previous model to physical result by 20\%
+				\item Improved simulation speed by a factor of 15
 			\end{itemize}
 		\item Developed theoretical model of switching noise magnitude
 		\item Added unattended simulation functionality
 		%\item Active in intern activities and participated in organic farming
 		\end{itemize}]{Intern}{June 2014}{Aug. 2014}
+\end{itemize}
+\resheading{Experience (continued)}
+\begin{itemize}[itemsep=-18pt]
 \item[]
 \resemployer{University of New Orleans}{New Orleans, LA}
     \resjob[\vspace{-20pt}\begin{itemize}[itemsep=-2pt,label=\textbullet]
 		\item Studied accuracy and speed of various nonlinear filters as related to estimating battery state of charge
         \item Researched use of Extended Kalman Filter for highly nonlinear systems through stochastic gradient estimation
 		\item Proposed adjustments to the Unscented Kalman Filter and the Cubature Kalman Filter that increase filtering stability and accuracy
-		%\item NASA-funded Masters through Ames Research Center Scholarship
-		\end{itemize}]{\textnormal{NASA-funded} Research Assistant \textnormal{under Dr.\ Huimin Chen}}{July 2012}{May 2014}
+		\item NASA-funded Masters through Ames Research Center Scholarship
+		\end{itemize}]{Research Assistant \textnormal{under Dr.\ Huimin Chen}}{July 2012}{May 2014}
 \item[]
 \resemployer{Pennsylvania State University}{University Park, PA}
     \resjob[\vspace{-20pt}\begin{itemize}[itemsep=-2pt,label=\textbullet]
@@ -164,15 +176,13 @@
 		\item Studied sampled-data implementation in the presence of thermal noise
 		\item Derived sensitivity of a Robinson marginal oscillator
 		\item Optimized speed of simulation model by a factor of 100
-		\end{itemize}]{Research Assistant \textnormal{under Dr.\ Jeffrey L.\ Schiano}}{March 2010}{May 2011}
+		\end{itemize}]{Research Assistant \textnormal{under Dr.\ Jeffrey L.\ Schiano}}{Mar. 2010}{May 2011}
 \end{itemize}
 \vspace{-18pt}
 
 \resheading{Projects}
-\begin{itemize}[itemsep=-3pt]
-\item Determined performance of MIMO configurations for LTE-Advanced
+\begin{itemize}[itemsep=-2pt]
 \item GoPro-based underwater fish recognition and tracking using FAST SURF feature matching and dark channel prior transmission map estimation
-\item Detection of battery short circuit using high-gain adaptive observer
 \item Video jitter removal and stabilization using point feature matching and phase correlation
 \item Image reconstruction from incomplete, quantized measurements using discretized solution of Euler-Lagrange equation
 \item Estimation of vehicular dynamics through dual nonlinear filtering of vehicle state and operating parameters
@@ -183,15 +193,16 @@
 \end{itemize}
 \vspace{-3pt}
 
-%\resheading{Publications}
-%\begin{description}[itemsep=-3pt,leftmargin=30.5pt,itemindent=-2em]
-%\item[] \textbf{``Comparison of Nonlinear Filtering Methods for Battery State of Charge Estimation''} University of New Orleans, 2014.
-%\item[] \textbf{``Conversion Gain and Sensitivity in Marginal Oscillators: Continuous and Sampled-Data Negative Resistance Converters''} The Pennsylvania State University, 2011.
-%\item[] \textbf{``The Pulsar: A Revolution in Display Technology''} Pennsylvania Center for the Book, Penn State University, 2010.
-%\item[] \textbf{``Domino Tilings of Rectangles with Fixed Width''} Journal of the Pennsylvania Governor's School for the Sciences, 2007.
+\resheading{Selected Publications}
+\begin{description}[itemsep=-3pt,leftmargin=30.5pt,itemindent=-2em]
+\item[] \textbf{``Joint Magnetic Calibration and Localization Based on Expectation Maximization for Tongue Tracking,''} IEEE Transactions on Biomedical Engineering, 2017.
+\item[] \textbf{``Comparison of Nonlinear Filtering Methods for Battery State of Charge Estimation,''} University of New Orleans, 2014.
+\item[] \textbf{``Conversion Gain and Sensitivity in Marginal Oscillators: Continuous and Sampled-Data Negative Resistance Converters,''} The Pennsylvania State University, 2011.
+%\item[] \textbf{``The Pulsar: A Revolution in Display Technology,''} Pennsylvania Center for the Book, Penn State University, 2010.
+%\item[] \textbf{``Domino Tilings of Rectangles with Fixed Width,''} Journal of the Pennsylvania Governor's School for the Sciences, 2007.
 %\item[] \resbib{``Dominoes or: How I Learned to Stop Worrying and Love the Tilings''}{Journal of the Pennsylvania Governor’s School for the Sciences, Volume 25, 2007.}
-%\end{description}
-%\vspace{-3pt}
+\end{description}
+\vspace{-3pt}
 
 %\resheading{Honors/Awards}
 %\begin{itemize}[itemsep=-3pt]
@@ -200,13 +211,13 @@
 %\end{itemize}
 
 \resheading{Notes}
-\begin{description}[itemsep=-3pt,leftmargin=30.5pt,itemindent=-2em]
-\item[] \textbf{Software:} Matlab, Simulink, PSPICE, Multisim, Mathematica, AutoCAD, Solidworks, GIT, Photoshop, MS Office
-%\item[] \textbf{Software:} Matlab, Simulink, PSPICE, Multisim, Mathematica,  AutoCAD, Solidworks, Minitab, Photoshop, MS Office
-\item[] \textbf{Programming:} Matlab, Fortran, C, Java, Python, Visual Basic, Perl, Tcl/Tk, LabView, LaTeX
-%\item[] \textbf{Web Development:} Javascript, AJAX, PHP, Python, CSS3, HTML, Apache, MySQL
-\item[] \textbf{Social Skills:} Good communication skills, strong problem solving ability, excellent at teamwork
-%\item[] \textbf{Volunteering:} Shell Eco-Marathon, Shell Oil/Viva Technology competition mentor for underprivileged students in New Orleans, Bike Around the Bay, Penn State philanthropy for children with cancer, Penn State campus beautification
+\begin{description}[itemsep=-2pt,leftmargin=30.5pt,itemindent=-2em]
+\item[] \textbf{Software:} Matlab, Simulink, PSPICE, Multisim, Mathematica, AutoCAD, Solidworks, Abaqus, GIT, Photoshop, MS Office
+\item[] \textbf{Programming:} Matlab, Fortran, C/C++, Java, Python, Visual Basic, Perl, Tcl/Tk, LabView, LaTeX
+\item[] \textbf{Web Development:} Javascript, AJAX, PHP, Python, CSS3, HTML, Apache, MySQL
+\item[] \textbf{Leadership:} Organized local cycling group, created student running club, president of table tennis club
+%\item[] \textbf{Social Skills:} Good communication skills, strong problem solving ability, excellent at teamwork
+\item[] \textbf{Volunteering:} Habitat for Humanity, Soap Box Derby, Shell Eco-Marathon, Shell Oil/Viva Technology competition mentor for underprivileged students in New Orleans, Bike Around the Bay, Penn State philanthropy for children with cancer (THON), Penn State campus beautification
 %\item[] \resbib{Interests:}{Cooking, swimming, ping pong, running, chess, photography}
 \end{description}
 
