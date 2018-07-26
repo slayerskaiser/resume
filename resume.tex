@@ -3,10 +3,10 @@
 \usepackage{enumitem}
 \usepackage[T1]{fontenc}
 \usepackage{charter}
-\usepackage[left=0.75in,right=0.75in,top=0.3in,bottom=0.3in]{geometry}
+\usepackage[left=0.7in,right=0.7in,top=0.3in,bottom=0.3in]{geometry}
 
 \RenewDocumentCommand\resentry{O{-10pt}mm}{
-    \begin{tabular*}{0.94\textwidth}[t]{@{\hspace{#1}} p{5.4in-#1} @{\extracolsep{\fill}} p{0.82in}}
+    \begin{tabular*}{0.94\textwidth}[t]{@{\hspace{#1}} p{5.5in-#1} @{\extracolsep{\fill}} p{0.82in}}
     \raggedright #2 & #3
     \tabularnewline
 \end{tabular*}
@@ -70,15 +70,17 @@
 %\setlength{\evensidemargin}{-0.5in}
 %\setlength{\textheight}{10in}
 
+\newcommand{\CC}{C\nolinebreak\hspace{-.05em}\raisebox{.1ex}{\small\bf +}\nolinebreak\hspace{-.10em}\raisebox{.1ex}{\small\bf +}}
+
 \begin{document}
 
 \begin{center}
     {\fontsize{28}{33}\selectfont \textbf{\textsc{Klaus Okkelberg}}} \\[2pt]
     % {\fontsize{24}{30}\selectfont \textbf{\textsc{Klaus Okkelberg}}} \\[2pt]
     %	{\Huge \textbf{\textsc{Klaus Okkelberg}}} \\[2pt]
-    8488 Cherry Oak Ct, Mobile AL 36695 $\bullet$ 484-226-8020 $\bullet$ klaus.okkelberg@gmail.com
+    8488 Cherry Oak Ct, Mobile AL 36695 $\bullet$ 484-226-8020 $\bullet$ klaus.okkelberg@gmail.com \\[0pt]
     % 484-226-8020 $\bullet$ kokkelberg@gatech.edu $\bullet$ US Citizen \\[-2pt]
-    $\bullet$ US Citizen \\[0pt]
+    % $\bullet$ US Citizen \\[0pt]
     \vspace*{-5pt}
     \rule{\textwidth}{0.2pt}
 \end{center}
@@ -124,74 +126,80 @@
 \begin{itemize}[itemsep=-18pt]
 \item[]
 \resemployer{Georgia Tech}{Atlanta, GA}
-    \resjob[\vspace{-20pt}\begin{itemize}[itemsep=-2pt,label=\textbullet]
-        \item Studied high-gain adaptive observer for monitoring of battery state of charge and detection of short circuits
+    \resjob[\vspace{-24pt}\begin{itemize}[itemsep=-2pt,label=\textbullet]
+        \item Studied high-gain adaptive observer for monitoring of battery state of charge and for detection of short circuits
         \item Compared signal and channel estimation methods for CP-OFDM communications
         \item Analyzed performance of MIMO configurations for LTE-Advanced
-        \item Researched a Multimodal Speech Capture System (MSCS) for speech therapy and accent reduction, consisting of microphones, camera and magnetic sensors for tongue tracking
-            \vspace{-3pt}\begin{itemize}[itemsep=0pt,label=--]
-                \item Designed and 3D-printed prototype systems using Solidworks
-                \item Optimized sensor calibration and magnet localization algorithms (reduced error from >10~mm to 1.8~mm)
-                \item Extended IPA vowel chart for consonant phoneme analysis
-                \item Trained deep neural network (DNN) and support vector machines (SVM) for silent speech recognition
+        \item Examined a Multimodal Speech Capture System (MSCS) for speech therapy and accent reduction, using aural, visual and magnetic modalities to track articulator motion
+            \vspace{-3pt}\begin{itemize}[itemsep=0pt,label=\textbf{--}]
+                \item Designed portable, prototype systems using Solidworks and 3D-printed them, including wearable headset using dynamic electromagnetic field removal
+                \item Extended IPA vowel diagram with consonant phoneme locations
+                \item Optimized magnetic sensor calibration and localization algorithms
+                  %(reduced RMS error from >15~mm to 1.8~mm over 4$\times$4$\times$10~cm region while achieving real-time operation)
+                \vspace{-3pt}\begin{itemize}[itemsep=0pt,label=\textasteriskcentered]
+                  \item Region of interest is 4$\times$4$\times$10~cm area corresponding to tongue's range of motion
+                  \item Reduced RMS error from >15~mm to 1.8~mm for stationary system, comparable to state-of-art electromagnetic articulography (EMA) at hundredth of cost
+                  \item Achieved 4.6~mm RMS error for headset system
+                \end{itemize}
+                \item Trained hybrid system of deep neural network (DNN) and support vector machines (SVM) for silent speech recognition
+                  %(speaker-indep., single-magnet-modality, top-3 recognition error <3\% and top-1 error of \textasciitilde 13\% over \textasciitilde 100 words/phrases)
+                \vspace{-3pt}\begin{itemize}[itemsep=0pt,label=\textasteriskcentered]
+                    \item Speaker-independent recognition, using single-magnet modality, of \textasciitilde 100 words/phrases
+                    \item Top-3 classification error <3\% and top-1 error of 13\%
+                \end{itemize}
             \end{itemize}
 		\end{itemize}]{Graduate Researcher \textnormal{with Dr.\ Maysam Ghovanloo}}{Aug. 2014}{Present}
 \item[]
-    \resjob[\vspace{-20pt}\begin{itemize}[itemsep=-2pt,label=\textbullet]
-            \item Graduate TA for GaTech ECE 3030, Physical Foundations of Computer Engineering (physics of MOSFET operation)
-        \item Graduate TA for GaTech ECE 2031, Digital Design Lab, part of the school's Undergraduate Professional Communication Program (UPCP)
-			\vspace{-3pt}\begin{itemize}[itemsep=0pt,label=--]
+    \resjob[\vspace{-24pt}\begin{itemize}[itemsep=-2pt,label=\textbullet]
+            \item GaTech ECE 3030, Physical Foundations of Computer Engineering (physics of MOSFET operation)
+        \item GaTech ECE 2031, Digital Design Lab, part of the school's Undergraduate Professional Communication Program (UPCP)
+			\vspace{-3pt}\begin{itemize}[itemsep=0pt,label=\textbf{--}]
                 \item Course on programming FPGAs for control of three-wheeled robots
                 \item Provided writing assistance to all undergraduate students in the Electrical and Computer Engineering department as part of UPCP
 			\end{itemize}
         \item Graduate TA for GaTech Math 4221, Stochastic Processes
-		\end{itemize}]{Teaching Assistant}{Aug. 2015}{Dec. 2016}
-\item[]
-\resemployer{Xilinx, Inc.}{San Jose, CA}
-    \resjob[\vspace{-20pt}\begin{itemize}[itemsep=-2pt,label=\textbullet]
-    	\item Improved computer mathematical modeling of physical, 16~nm field-programmable gate array (FPGA) devices through Cadence modeling and Matlab/Verilog simulation
-			\vspace{-3pt}\begin{itemize}[itemsep=0pt,label=--]
-				\item Increased accuracy of previous model to physical result by 20\%
-				\item Improved simulation speed by a factor of 15
-			\end{itemize}
-		\item Developed theoretical model of switching noise magnitude
-		\item Added unattended simulation functionality
-		%\item Active in intern activities and participated in organic farming
-		\end{itemize}]{Intern}{June 2014}{Aug. 2014}
+		\end{itemize}]{Graduate Teaching Assistant}{Aug. 2015}{Dec. 2016}
 \end{itemize}
+%
 \resheading{Experience (continued)}
 \begin{itemize}[itemsep=-18pt]
 \item[]
+\resemployer{Xilinx, Inc.}{San Jose, CA}
+    \resjob[\vspace{-24pt}\begin{itemize}[itemsep=-3pt,label=\textbullet]
+        \item Improved computer mathematical modeling of physical, 16~nm (UltraScale+) field-programmable gate array (FPGA) devices through Cadence modeling and Matlab/Verilog simulation
+			\vspace{-3pt}\begin{itemize}[itemsep=-1pt,label=\textbf{--}]
+                \item Focused on simultaneous switching noise
+				\item Increased accuracy of model to physical result by 20\%
+				%\item Improved simulation speed by a factor of 15
+			\end{itemize}
+		%\item Developed theoretical model of switching noise magnitude
+            \item Created new automated tool for inspecting multiple chip designs
+			\vspace{-3pt}\begin{itemize}[itemsep=-1pt,label=\textbf{--}]
+				\item Improved simulation speed over previous tool by a factor of 15
+			\end{itemize}
+        %\item Added unattended simulation functionality
+		%\item Active in intern activities and participated in organic farming
+		\end{itemize}]{Intern}{June 2014}{Aug. 2014}
+\item[]
+\vspace{-3pt}
 \resemployer{University of New Orleans}{New Orleans, LA}
-    \resjob[\vspace{-20pt}\begin{itemize}[itemsep=-2pt,label=\textbullet]
-		\item Studied accuracy and speed of various nonlinear filters as related to estimating battery state of charge
+    \resjob[\vspace{-24pt}\begin{itemize}[itemsep=-3pt,label=\textbullet]
+		\item NASA-funded Masters through Ames Research Center Scholarship
+		\item Studied accuracy and speed of various nonlinear filters for estimating battery state of charge
         \item Researched use of Extended Kalman Filter for highly nonlinear systems through stochastic gradient estimation
 		\item Proposed adjustments to the Unscented Kalman Filter and the Cubature Kalman Filter that increase filtering stability and accuracy
-		\item NASA-funded Masters through Ames Research Center Scholarship
-		\end{itemize}]{Research Assistant \textnormal{under Dr.\ Huimin Chen}}{July 2012}{May 2014}
+		\end{itemize}]{Research Assistant \textnormal{with Dr.\ Huimin Chen}}{July 2012}{May 2014}
 \item[]
+\vspace{-3pt}
 \resemployer{Pennsylvania State University}{University Park, PA}
-    \resjob[\vspace{-20pt}\begin{itemize}[itemsep=-2pt,label=\textbullet]
+    \resjob[\vspace{-24pt}\begin{itemize}[itemsep=-3pt,label=\textbullet]
 		\item Researched a marginal oscillator with a nonlinear feedback element for use in nuclear magnetic spectroscopy
 		\item Studied sampled-data implementation in the presence of thermal noise
-		\item Derived sensitivity of a Robinson marginal oscillator
+		%\item Derived sensitivity of a Robinson marginal oscillator
 		\item Optimized speed of simulation model by a factor of 100
-		\end{itemize}]{Research Assistant \textnormal{under Dr.\ Jeffrey L.\ Schiano}}{Mar. 2010}{May 2011}
+		\end{itemize}]{Research Assistant \textnormal{with Dr.\ Jeffrey L.\ Schiano}}{Mar. 2010}{May 2011}
 \end{itemize}
 \vspace{-18pt}
-
-\resheading{Projects}
-\begin{itemize}[itemsep=-2pt]
-\item GoPro-based underwater fish recognition and tracking using FAST SURF feature matching and dark channel prior transmission map estimation
-\item Video jitter removal and stabilization using point feature matching and phase correlation
-\item Image reconstruction from incomplete, quantized measurements using discretized solution of Euler-Lagrange equation
-\item Estimation of vehicular dynamics through dual nonlinear filtering of vehicle state and operating parameters
-\item Investigation of resonant tunneling through a double-barrier diode
-\item Quantum interference visibility in an oscillating macroscopic mirror
-\item High-speed adaptive decision feedback equalization for SerDes communications
-%\item Digital clock with laser display system for Senior Design Project
-\end{itemize}
-\vspace{-3pt}
 
 \resheading{Selected Publications}
 \begin{description}[itemsep=-3pt,leftmargin=30.5pt,itemindent=-2em]
@@ -204,6 +212,20 @@
 \end{description}
 \vspace{-3pt}
 
+\resheading{Projects}
+\begin{itemize}[itemsep=-3pt]
+\item Model Predictive Control (MPC) method for steering rocket propulsion system
+\item GoPro-based underwater fish recognition and tracking using FAST SURF feature matching and dark channel prior transmission map estimation
+\item Video jitter removal and stabilization using point feature matching and phase correlation
+\item Image reconstruction from incomplete, quantized measurements using discretized solution of Euler-Lagrange equation
+\item Vehicle tracking on changing terrain using dual nonlinear filtering of state and operating parameters
+\item Investigation of resonant tunneling through a double-barrier diode
+\item Quantum interference visibility in an oscillating macroscopic mirror
+\item High-speed adaptive decision feedback equalization for SerDes communications
+%\item Digital clock with laser display system for Senior Design Project
+\end{itemize}
+\vspace{-3pt}
+
 %\resheading{Honors/Awards}
 %\begin{itemize}[itemsep=-3pt]
 %\item[] \resdesc{SGT/NASA Ames Research Center Scholarship}{2012--2013}
@@ -211,14 +233,16 @@
 %\end{itemize}
 
 \resheading{Notes}
-\begin{description}[itemsep=-2pt,leftmargin=30.5pt,itemindent=-2em]
-\item[] \textbf{Software:} Matlab, Simulink, PSPICE, Multisim, Mathematica, AutoCAD, Solidworks, Abaqus, GIT, Photoshop, MS Office
-\item[] \textbf{Programming:} Matlab, Fortran, C/C++, Java, Python, Visual Basic, Perl, Tcl/Tk, LabView, LaTeX
-\item[] \textbf{Web Development:} Javascript, AJAX, PHP, Python, CSS3, HTML, Apache, MySQL
+\begin{description}[itemsep=-3pt,leftmargin=30.5pt,itemindent=-2em]
+\item[] \textbf{Software:} Matlab, Simulink, PSPICE, Multisim, Mathematica, AutoCAD, Solidworks, Abaqus, GIT%, Photoshop, MS Office
+\item[] \textbf{Programming:} Matlab, Fortran, C/\CC, Java, Python, Visual Basic, Perl, Tcl/Tk, LabView, LaTeX
+\item[] \textbf{Web Development:} HTML, CSS3, Javascript, AJAX, PHP, Python, Apache, MySQL
 \item[] \textbf{Leadership:} Organized local cycling group, created student running club, president of table tennis club
 %\item[] \textbf{Social Skills:} Good communication skills, strong problem solving ability, excellent at teamwork
-\item[] \textbf{Volunteering:} Habitat for Humanity, Soap Box Derby, Shell Eco-Marathon, Shell Oil/Viva Technology competition mentor for underprivileged students in New Orleans, Bike Around the Bay, Penn State philanthropy for children with cancer (THON), Penn State campus beautification
-%\item[] \resbib{Interests:}{Cooking, swimming, ping pong, running, chess, photography}
+\item[] \textbf{Volunteering:} Habitat for Humanity, Soap Box Derby, Shell Eco-Marathon, Shell Oil/Viva Technology competition mentor for underprivileged students in New Orleans, Bike Around the Bay, Penn State philanthropy for children with cancer (THON), dog fostering
+  % Penn State campus beautification
+\item[] \textbf{Work Authorization:} {US Citizen}
+%\item[] \textbf{Interests:}{Cooking, swimming, ping pong, running, chess, photography}
 \end{description}
 
 \end{document}
