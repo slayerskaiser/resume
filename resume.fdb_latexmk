@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1532570218 "resume.tex" "resume.pdf" "resume" 1532570218
+["pdflatex"] 1532572567 "resume.tex" "resume.pdf" "resume" 1532572567
   "/etc/texmf/web2c/texmf.cnf" 1483592188 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -96,8 +96,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503347518 31075 dbb81bd39d798acf14cc121a151f7fe7 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1529513070 128030 51506508058c1f87894f0a4ee7bdf94c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1504495732 722334 2c0a6ad3b92d465f54d25bf8b5b2211d ""
-  "resume.aux" 1532570218 8 a94a2480d3289e625eea47cd1b285758 ""
-  "resume.tex" 1532570218 14035 606758c59397f81359ac7b69c0150230 ""
+  "resume.aux" 1532572567 8 a94a2480d3289e625eea47cd1b285758 ""
+  "resume.tex" 1532572567 13596 2c6aec8f0b81a090a394f15445b04ba8 ""
   (generated)
   "resume.aux"
   "resume.log"
