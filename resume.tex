@@ -3,7 +3,7 @@
 \usepackage{enumitem}
 \usepackage[T1]{fontenc}
 \usepackage{charter}
-\usepackage[left=0.7in,right=0.7in,top=0.3in,bottom=0.3in]{geometry}
+\usepackage[left=0.7in,right=0.7in,top=0.4in,bottom=0.4in]{geometry}
 
 \RenewDocumentCommand\resentry{O{-10pt}mm}{
     \begin{tabular*}{0.94\textwidth}[t]{@{\hspace{#1}} p{5.5in-#1} @{\extracolsep{\fill}} p{0.82in}}
@@ -95,13 +95,13 @@
 
 \resheading{Education}
 \begin{itemize}[itemsep=-3pt]
-%\item[]
-%    %\resschool{Georgia Institute of Technology}{Atlanta, GA}{\negphantom{\emph{expected} }\hspace{2em} \emph{expected} 2017}
-%    \resschool{Georgia Institute of Technology}{Atlanta, GA}{2014 -- 2017}
-%    \ressubentrysinglecol{Electrical and Computer Engineering, 85 graduate credits}
-%    %\ressubentrysinglecol{\emph{Emphasis:} Systems/Controls and Telecommunications}
-%    %\ressubentrysinglecol{\emph{Research:} Developing DSP algorithms of a mobile speech capture system for help with speech disorders and accent \mbox{reduction}. Uses machine learning and information fusion to provide audio/visual performance feedback}
-%    \ressubentrysinglecol{GPA: 3.8/4.0}
+\item[]
+    %\resschool{Georgia Institute of Technology}{Atlanta, GA}{\negphantom{\emph{expected} }\hspace{2em} \emph{expected} 2017}
+    \resschool{Georgia Institute of Technology}{Atlanta, GA}{2014 -- 2018}
+    \ressubentrysinglecol{Ph.D.\ coursework in Electrical and Computer Engineering, 85 graduate credits}
+    \ressubentrysinglecol{\emph{Emphasis:} Systems/Controls and Telecommunications}
+    %\ressubentrysinglecol{\emph{Research:} Developing DSP algorithms of a mobile speech capture system for help with speech disorders and accent \mbox{reduction}. Uses machine learning and information fusion to provide audio/visual performance feedback}
+    \ressubentrysinglecol{GPA: 3.8/4.0}
 \item[]
     \resschool{University of New Orleans}{New Orleans, LA}{\hfill 2014}
         \ressubentrysinglecol{M.S.E.\ in Electrical Engineering}
@@ -126,8 +126,6 @@
     \resjob[\vspace{-24pt}\begin{itemize}[itemsep=-2pt,label=\textbullet]
         \item Examined a Multimodal Speech Capture System (MSCS) for speech therapy and accent reduction, using aural, visual and magnetic modalities to track articulator motion
         \item Designed portable, prototype systems using Solidworks and 3D-printed them
-          %, including wearable headset using dynamic electromagnetic field removal
-                \item Extended IPA vowel diagram with consonant phoneme locations
                 \item Optimized magnetic sensor calibration and localization algorithms over 4$\times$4$\times$10~cm area corresponding to tongue's range of motion
                   %(reduced RMS error from >15~mm to 1.8~mm over 4$\times$4$\times$10~cm region while achieving real-time operation)
                 \vspace{-3pt}\begin{itemize}[itemsep=0pt,label=\textbf{--}]
@@ -135,23 +133,26 @@
                   \item Reduced RMS error from >15~mm to 1.8~mm for stationary system, comparable to state-of-art electromagnetic articulography (EMA) at hundredth of cost
                   \item Achieved 4.6~mm RMS error for portable, headset system
                 \end{itemize}
+            \item Created joint calibration and localization algorithm (global opt.) for handling nonlinear noise from local EMF or flexing of headset system
                 \item Trained hybrid system of deep neural network (DNN) and support vector machines (SVM) for silent speech recognition of \textasciitilde 100 words/phrases
                   %(speaker-indep., single-magnet-modality, top-3 recognition error <3\% and top-1 error of \textasciitilde 13\% over \textasciitilde 100 words/phrases)
                 \vspace{-3pt}\begin{itemize}[itemsep=0pt,label=\textbf{--}]
                     \item Speaker-independent recognition, using single-magnet modality
                     \item Top-3 classification error <3\% and top-1 error of 13\%
             \end{itemize}
+        \item Developed speech scoring algorithm based on information fusion of modalities that outperforms audio-only scoring in speaker-independent testing
+                \item Extended IPA vowel diagram with consonant phoneme locations
     \end{itemize}]{Graduate Researcher \textnormal{with Dr.\ Maysam Ghovanloo}, \textit{40 hours/week}}{Aug. 2014}{Present}
-\item[]
-    \resjob[\vspace{-24pt}\begin{itemize}[itemsep=-2pt,label=\textbullet]
-            \item GaTech ECE 3030, Physical Foundations of Computer Engineering (physics of MOSFET operation)
-        \item GaTech ECE 2031, Digital Design Lab, part of the school's Undergraduate Professional Communication Program (UPCP)
-			\vspace{-3pt}\begin{itemize}[itemsep=0pt,label=\textbf{--}]
-                \item Course on programming FPGAs for control of three-wheeled robots
-                \item Provided writing assistance to all undergraduate students in the Electrical and Computer Engineering department as part of UPCP
-			\end{itemize}
-        \item Graduate TA for GaTech Math 4221, Stochastic Processes
-    \end{itemize}]{Graduate Teaching Assistant, \textit{13 hours/week}}{Aug. 2015}{Dec. 2016}
+%\item[]
+%    \resjob[\vspace{-24pt}\begin{itemize}[itemsep=-2pt,label=\textbullet]
+%            \item GaTech ECE 3030, Physical Foundations of Computer Engineering (physics of MOSFET operation)
+%        \item GaTech ECE 2031, Digital Design Lab, part of the school's Undergraduate Professional Communication Program (UPCP)
+%			\vspace{-3pt}\begin{itemize}[itemsep=0pt,label=\textbf{--}]
+%                \item Course on programming FPGAs for control of three-wheeled robots
+%                \item Provided writing assistance to all undergraduate students in the Electrical and Computer Engineering department as part of UPCP
+%			\end{itemize}
+%        \item Graduate TA for GaTech Math 4221, Stochastic Processes
+%    \end{itemize}]{Graduate Teaching Assistant, \textit{13 hours/week}}{Aug. 2015}{Dec. 2016}
 \item[]
 \resemployer{Xilinx, Inc.}{San Jose, CA}
     \resjob[\vspace{-24pt}\begin{itemize}[itemsep=-3pt,label=\textbullet]
