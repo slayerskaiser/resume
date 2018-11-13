@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.22)  12 NOV 2018 22:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.22)  12 NOV 2018 22:32
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -496,13 +496,13 @@ Here is how much of TeX's memory you used:
  14860 multiletter control sequences out of 15000+600000
  570158 words of font info for 56 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 47i,11n,65p,308b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,11n,65p,292b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/opt/texlive-2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</opt/texlive-
 2018/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></opt/texlive-2018/texm
 f-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></opt/texlive-2018/texmf-dist/fo
 nts/type1/bitstrea/charter/bchri8a.pfb></opt/texlive-2018/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb>
-Output written on resume.pdf (2 pages, 56826 bytes).
+Output written on resume.pdf (2 pages, 56704 bytes).
 PDF statistics:
  28 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream
