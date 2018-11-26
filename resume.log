@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.22)  22 NOV 2018 16:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.22)  26 NOV 2018 11:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -492,7 +492,7 @@ LaTeX Font Info:    Font shape `OMS/bch/m/n' in size <10.95> not available
 Here is how much of TeX's memory you used:
  11249 strings out of 494587
  209941 string characters out of 6177841
- 255015 words of memory out of 5000000
+ 255020 words of memory out of 5000000
  14860 multiletter control sequences out of 15000+600000
  570158 words of font info for 56 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
