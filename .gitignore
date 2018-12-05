@@ -2,3 +2,4 @@
 !resume*
 *.fls
 *.synctex*
+*.fdb_latexmk
